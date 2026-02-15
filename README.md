@@ -1,5 +1,6 @@
 Customer Churn Prediction – Machine Learning Project
 
+
 Project Overview
 In this project, I built a machine learning model to predict whether a telecom customer will churn or not. Customer churn is a serious issue for telecom companies because losing customers directly affects revenue.
 The goal of this project is to identify customers who are likely to leave so that the company can take action in advance.
@@ -75,6 +76,21 @@ F1-Score
 
 Since missing a churned customer is costly for business, I focused more on Recall for churned customers.
 The model achieved strong recall, meaning it correctly identifies most customers who are likely to churn.
+
+
+Tech Stack
+Python
+Pandas, NumPy
+Scikit-learn
+SciPy (Statistical Testing)
+Matplotlib,Seaborn 
+
+
+Key Learnings
+End-to-end machine learning workflow
+Importance of statistical validation during EDA
+Clean preprocessing using pipelines
+Building deployable and maintainable ML solutions
 
 
 Model Saving
